@@ -75,7 +75,7 @@
         android:layout_marginTop="21dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/foodfast_primary"
-        android:text="Hello"
+        android:text="Pancakes"
         android:textSize="@dimen/font_size_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
