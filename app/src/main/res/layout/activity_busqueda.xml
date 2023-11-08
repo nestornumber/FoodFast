@@ -61,7 +61,7 @@
         android:layout_marginEnd="16dp"
 
         android:backgroundTint="@color/foodfast_primary"
-        android:text="Pasta con carne"
+        android:text="Pasta con pollo"
         android:textSize="@dimen/font_size_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
