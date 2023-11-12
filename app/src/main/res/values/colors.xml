@@ -6,5 +6,8 @@
     <color name="foodfast_nav_selected">#ffffff</color>
     <color name="foodfast_nav_noselected">#ffa99a</color>
 
+    <color name="text_blue">#0d1c35</color>
+
+
 
 </resources>
