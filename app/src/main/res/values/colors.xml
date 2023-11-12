@@ -5,9 +5,12 @@
     <color name="foodfast_nav_background">#FF735A</color>
     <color name="foodfast_nav_selected">#ffffff</color>
     <color name="foodfast_nav_noselected">#ffa99a</color>
+    <color name="foodfast_background">#ffd7d1</color>
+
 
     <color name="text_blue">#0d1c35</color>
-
+    <color name="foodfast_buttonBackground">#FFADA1</color>
+    <color name="foodfast_buttonStroke">#fb6c58</color>
 
 
 </resources>

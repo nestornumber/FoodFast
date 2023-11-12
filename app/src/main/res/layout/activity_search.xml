@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/foodfast_background"
     tools:context=".SearchActivity">
 
     <TextView
@@ -14,6 +15,25 @@
         android:text="Search"
         android:textSize="50sp"
         android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/foodfast_edit_text"
+        android:drawableRight="@drawable/icon_buscar"
+        android:fontFamily="@font/cabin_regular"
+        android:padding="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:text="Buscar"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/text_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="149dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -26,6 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_navigation" />
+        app:menu="@menu/menu_navigation"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
