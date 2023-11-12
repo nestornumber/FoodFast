@@ -1,4 +1,4 @@
-package sv.edu.itca.myapplication;
+package sv.edu.itca.foodfast;
 
 import androidx.appcompat.app.AppCompatActivity;
 

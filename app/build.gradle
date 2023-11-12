@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'sv.edu.itca.myapplication'
+    namespace 'sv.edu.itca.foodfast'
     compileSdk 33
 
     defaultConfig {
-        applicationId "sv.edu.itca.myapplication"
+        applicationId "sv.edu.itca.foodfast"
         minSdk 23
         targetSdk 33
         versionCode 1
