@@ -2,14 +2,10 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
     <solid
-        android:color="@color/foodfast_buttonBackground" />
+        android:color="@color/foodfast_categories_buttonBackground" />
     <corners
         android:topLeftRadius="12dp"
         android:topRightRadius="12dp"
         android:bottomRightRadius="12dp"
         android:bottomLeftRadius="12dp" />
-
-    <stroke
-        android:width="2dp"
-        android:color="@color/foodfast_buttonStroke"" />
 </shape>
