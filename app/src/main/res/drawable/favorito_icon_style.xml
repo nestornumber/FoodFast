@@ -1,6 +1,0 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:drawable="@drawable/favorito_icon"
-        android:width="50dp"
-        android:height="50dp" />
-</layer-list>
