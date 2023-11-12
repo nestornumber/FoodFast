@@ -2,7 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="foodfast_primary">#FD4F4F</color>
-    <color name="foodfast_blue">#3F4793</color>
+    <color name="foodfast_nav_background">#FF735A</color>
+    <color name="foodfast_nav_selected">#ffffff</color>
+    <color name="foodfast_nav_noselected">#ffa99a</color>
+
 
 </resources>

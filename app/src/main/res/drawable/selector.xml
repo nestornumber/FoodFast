@@ -3,10 +3,10 @@
 
     <item
         android:state_selected="true"
-        android:drawable="@color/white"/>
+        android:drawable="@color/foodfast_nav_selected"/>
 
     <item
         android:state_selected="false"
-        android:drawable="@color/white"/>
+        android:drawable="@color/foodfast_nav_noselected"/>
 
 </selector>
