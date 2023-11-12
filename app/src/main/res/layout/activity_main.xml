@@ -21,5 +21,6 @@
         app:itemBackground="@color/foodfast_primary"
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
-        app:menu="@menu/menu_navigation"/>
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>

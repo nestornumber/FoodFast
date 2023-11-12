@@ -3,5 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="foodfast_primary">#FD4F4F</color>
+    <color name="foodfast_blue">#3F4793</color>
 
 </resources>
