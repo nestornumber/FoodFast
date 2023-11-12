@@ -12,12 +12,12 @@
         android:icon="@drawable/icon_search"/>
 
     <item
-        android:id="@+id/"
+        android:id="@+id/add"
         android:title="Añadir"
         android:icon="@drawable/icon_add"/>
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/account"
         android:title="Cuenta"
         android:icon="@drawable/icon_account"/>
 
