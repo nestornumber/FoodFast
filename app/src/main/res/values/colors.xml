@@ -5,9 +5,9 @@
 
 
 <!--    general-->
-    <color name="foodfast_background">#0E1C39</color>
+    <color name="foodfast_background">#101E3A</color>
     <color name="foodfast_primary">#f87763</color>
     <color name="foodfast_secondary">#fab8ae</color>
     <color name="foodfast_accent">#fc553b</color>
-    <color name="foodfast_text">#eaeaea</color>
+    <color name="foodfast_text">#E3E3E3</color>
 </resources>
