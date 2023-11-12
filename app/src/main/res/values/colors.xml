@@ -5,9 +5,18 @@
 
 
 <!--    general-->
-    <color name="foodfast_background">#101E3A</color>
+<!--    <color name="foodfast_background">#101E3A</color>-->
     <color name="foodfast_primary">#f87763</color>
     <color name="foodfast_secondary">#fab8ae</color>
     <color name="foodfast_accent">#fc553b</color>
     <color name="foodfast_text">#E3E3E3</color>
+
+<!--    NUEVOS COLORES-->
+    <color name="foodfast_background">#ffd7d1</color>
+    <color name="textGray">#E4E4E4</color>
+    <color name="backgroundCard">#ffb5a9</color>
+
+
+
+
 </resources>
