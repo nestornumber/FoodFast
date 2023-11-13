@@ -16,17 +16,42 @@
             android:name=".VistaRecetaSalmonActivity"
             android:exported="false" />
         <activity
+            android:name=".VistaRecetaQuinoaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaPastaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaOmeletteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaEnsaladaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaAvenaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DesayunosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CenasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlmuerzosActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegistrarseActivity1"
             android:exported="false" />
+
         <activity
             android:name=".IniciarSesionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".SplashScreenActivity"
             android:exported="false" />

@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/foodfast_background">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="335dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="68dp"
+
+        android:background="@drawable/foodfast_button_secondary"
+        android:fontFamily="@font/cabin_regular"
+        android:padding="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Avena"
+
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/text_white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="335dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/foodfast_button_secondary"
+
+        android:fontFamily="@font/cabin_regular"
+        android:padding="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Omelette de espinacas "
+        android:textAlignment="center"
+
+        android:textAllCaps="true"
+        android:textColor="@color/text_white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
 
     <TextView
         android:id="@+id/textView9"
