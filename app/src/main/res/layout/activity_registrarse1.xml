@@ -17,6 +17,7 @@
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_brand_large"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

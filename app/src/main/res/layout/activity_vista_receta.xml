@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/foodfast_background"
+    tools:context=".VistaRecetaActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_semibold_style"
+        android:text="Receta"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/font_size_huge"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/icon_favorito"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/agbalumo_regular_style"
+        android:text="Nombre Receta"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/font_size_large"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/icon_persona"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="322dp"
+        android:layout_height="206dp"
+        app:srcCompat="@drawable/img_platillo"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_semibold_style"
+        android:text="Aporte De"
+        android:textAllCaps="true"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/font_size_small"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Usuario Usuario"
+        android:textAllCaps="false"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/font_size_medium"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Calificación"
+        android:textAllCaps="false"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/font_size_large"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="0"
+        android:textAllCaps="false"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/font_size_large"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icon_estrella"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="327dp"
+        android:layout_height="155dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/forma_info_receta"
+        tools:layout_editor_absoluteY="586dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
