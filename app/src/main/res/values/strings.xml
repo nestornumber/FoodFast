@@ -14,4 +14,32 @@ Instrucciones:
 Cocinar la pasta según las instrucciones.
 Mientras tanto, mezclar espinacas, piñones, ajo, aceite de oliva y queso parmesano en una licuadora para hacer el pesto.
 Mezclar el pesto con la pasta cocida.</string>
+    <string name="receta_avena">Ingredientes:
+Avena, leche (o agua), frutas frescas (como plátanos o fresas), frutos secos (nueces o almendras), miel (opcional)
+
+Instrucciones:
+Cocinar la avena según las instrucciones del paquete.
+Servir con rodajas de frutas frescas, frutos secos y un chorrito de miel si lo deseas.</string>
+    <string name="receta_ensaladapollo">Ingredientes:
+Pechuga de pollo a la parrilla, lechuga mixta, tomate, aguacate, maíz, aderezo de cilantro-lima.
+
+Instrucciones:
+Cortar el pollo en tiras.
+Mezclar con los ingredientes de la ensalada y aderezar con el aderezo de cilantro-lima.</string>
+    <string name="recera_omelette">Ingredientes:
+Huevos, espinacas frescas, queso (puede ser queso feta o de tu elección), sal y pimienta al gusto.
+
+Instrucciones:
+Saltear las espinacas en una sartén hasta que se marchiten.
+Batir los huevos, agregar sal y pimienta al gusto, verter sobre las espinacas y cocinar hasta que esté firme.
+Agregar el queso encima y doblar el omelette.</string>
+    <string name="receta_quinoa">Ingredientes:
+Quinoa, calabacín, pimientos, champiñones, cebolla, aceite de oliva, ajo, sal y pimienta.
+
+Instrucciones:
+Cocinar la quinoa según las instrucciones.
+En una sartén, saltear las verduras con ajo en aceite de oliva hasta que estén tiernas.
+Mezclar las verduras con la quinoa.</string>
+
+
 </resources>
