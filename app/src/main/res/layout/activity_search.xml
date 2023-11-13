@@ -5,28 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/foodfast_background"
-    tools:context=".SearchActivity">
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/foodfast_edit_text"
-        android:drawableRight="@drawable/icon_buscar"
-        android:fontFamily="@font/cabin_regular"
-        android:padding="10dp"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
-        android:text="Buscar"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textColor="@color/text_blue"
-        android:textSize="@dimen/font_size_small"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".SearchActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="125dp">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -47,22 +28,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="35dp"
         android:fontFamily="@font/cabin_semibold"
         android:text="CATEGORÍAS"
         android:textColor="@color/text_blue"
 
         android:textSize="@dimen/font_size_medium"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        tools:layout_editor_absoluteY="139dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/foodfast_button_primary"
         android:fontFamily="@font/cabin_regular"
         android:padding="10dp"
@@ -76,7 +55,7 @@
 
         android:textSize="@dimen/font_size_small"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -84,7 +63,7 @@
         android:id="@+id/button3"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/foodfast_button_primary"
         android:fontFamily="@font/cabin_regular"
         android:padding="10dp"
@@ -106,7 +85,7 @@
         android:id="@+id/button4"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/foodfast_button_primary"
         android:fontFamily="@font/cabin_regular"
         android:padding="10dp"
@@ -123,5 +102,15 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:background="@color/foodfast_buttonBackground"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,29 +19,23 @@ public class IniciarSesionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iniciar_sesion);
 
-        editTextUsuario = findViewById(R.id.editText);
-        editTextContraseña = findViewById(R.id.editText1);
-        btnIniciarSesion = findViewById(R.id.button2);
+        Button btnInvitado = findViewById(R.id.btnInvitado);
 
         btnIniciarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                // Obtén la información del usuario
-                String usuario = editTextUsuario.getText().toString();
-                String contraseña = editTextContraseña.getText().toString();
-
-                // Crea un Intent para pasar a la siguiente actividad (AccountActivity)
-                Intent intent = new Intent(IniciarSesionActivity.this, AccountActivity.class);
-
-                // Pasa la información del usuario al Intent
-                intent.putExtra("USUARIO", usuario);
-                intent.putExtra("CONTRASEÑA", contraseña);
-
-                // Inicia la siguiente actividad
+            //Inicia la actividad Main
+                Intent intent = new Intent(IniciarSesionActivity.this, MainActivity.class);
                 startActivity(intent);
+
             }
         });
 
+    }
+
+    public void onInvitadoButtonClick(View view) {
+        // Inicia la actividad MainActivity
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

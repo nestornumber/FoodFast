@@ -20,16 +20,6 @@ public class AccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account);
 
-        // Obtén la información del usuario del Intent
-        String usuario = getIntent().getStringExtra("USUARIO");
-        String contraseña = getIntent().getStringExtra("CONTRASEÑA");
-
-        // Muestra la información del usuario en TextViews
-        TextView textViewUsuario = findViewById(R.id.textViewUsuario);
-        TextView textViewContraseña = findViewById(R.id.textViewContraseña);
-
-        textViewUsuario.setText("Usuario: " + usuario);
-        textViewContraseña.setText("Contraseña: " + contraseña);
 
 
         // Configuración de la barra de navegación inferior
