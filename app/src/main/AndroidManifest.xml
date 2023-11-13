@@ -54,7 +54,9 @@
 
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="false" />
+            android:exported="false">
+        </activity>
+
         <activity
             android:name=".AccountActivity"
             android:exported="false" />
