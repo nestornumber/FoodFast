@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">FoodFast</string>
+    <string name="receta_salmon">Ingredientes:
+Filete de salmón, zanahorias, brócoli, aceite de oliva, limón, sal y pimienta.
+
+Instrucciones:
+Sazonar el salmón con sal, pimienta y jugo de limón.
+Colocar en una bandeja para hornear junto con zanahorias y brócoli.
+Rociar con aceite de oliva y hornear hasta que el salmón esté cocido y los vegetales estén tiernos.</string>
+    <string name="receta_pasta">Ingredientes:
+Pasta integral, espinacas frescas, piñones, ajo, aceite de oliva, queso parmesano, sal y pimienta.
+
+Instrucciones:
+Cocinar la pasta según las instrucciones.
+Mientras tanto, mezclar espinacas, piñones, ajo, aceite de oliva y queso parmesano en una licuadora para hacer el pesto.
+Mezclar el pesto con la pasta cocida.</string>
 </resources>

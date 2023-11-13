@@ -1,14 +1,14 @@
 package sv.edu.itca.foodfast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class VistaRecetaActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class VistaRecetaPastaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vista_receta);
+        setContentView(R.layout.activity_vista_receta_pasta);
     }
 }
