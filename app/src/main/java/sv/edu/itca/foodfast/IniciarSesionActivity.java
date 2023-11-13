@@ -12,16 +12,18 @@ public class IniciarSesionActivity extends AppCompatActivity {
 
     private EditText editTextUsuario;
     private EditText editTextContraseña;
-    private Button btnIniciarSesion;
+
+    private Button btnInvitado;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iniciar_sesion);
 
-        Button btnInvitado = findViewById(R.id.btnInvitado);
+        btnInvitado = findViewById(R.id.btnInvitado);
 
-        btnIniciarSesion.setOnClickListener(new View.OnClickListener() {
+        btnInvitado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
             //Inicia la actividad Main
