@@ -9,10 +9,11 @@
 
 
     <color name="text_blue">#0d1c35</color>
-    <color name="foodfast_buttonBackground">#FFADA1</color>
+    <color name="foodfast_buttonBackground">#FFC1B8</color>
     <color name="foodfast_buttonStroke">#fb6c58</color>
-    <color name="foodfast_categories_buttonBackground">#6e3d35</color>
+    <color name="foodfast_primary_buttonBackground">#6e3d35</color>
     <color name="text_white">#FFFFFF</color>
+    <color name="foodfast_secondary_buttonBackground">#cc7567</color>
 
 
 </resources>
