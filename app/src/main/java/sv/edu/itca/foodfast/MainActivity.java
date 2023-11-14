@@ -94,19 +94,16 @@ public class MainActivity extends AppCompatActivity {
                 if (id == R.id.search){
                     startActivity(new Intent(getApplicationContext()
                             ,SearchActivity.class));
-                    overridePendingTransition(0,0);
                     return true;
                 }
                 if (id == R.id.add){
                     startActivity(new Intent(getApplicationContext()
                             ,AddActivity.class));
-                    overridePendingTransition(0,0);
                     return true;
                 }
                 if (id == R.id.account){
                     startActivity(new Intent(getApplicationContext()
                             ,AccountActivity.class));
-                    overridePendingTransition(0,0);
                     return true;
                 }
                 return false;

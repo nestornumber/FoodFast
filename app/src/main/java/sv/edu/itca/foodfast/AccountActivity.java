@@ -29,7 +29,7 @@ public class AccountActivity extends AppCompatActivity {
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        bottomNavigationView.setSelectedItemId(R.id.home);
+        bottomNavigationView.setSelectedItemId(R.id.account);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -38,19 +38,16 @@ public class AccountActivity extends AppCompatActivity {
                 if (id == R.id.home){
                     startActivity(new Intent(getApplicationContext()
                             ,MainActivity.class));
-                    overridePendingTransition(0,0);
                     return true;
                 }
                 if (id == R.id.search){
                     startActivity(new Intent(getApplicationContext()
                             ,SearchActivity.class));
-                    overridePendingTransition(0,0);
                     return true;
                 }
                 if (id == R.id.add){
                     startActivity(new Intent(getApplicationContext()
                             ,AddActivity.class));
-                    overridePendingTransition(0,0);
                     return true;
                 }
                 if (id == R.id.account){
