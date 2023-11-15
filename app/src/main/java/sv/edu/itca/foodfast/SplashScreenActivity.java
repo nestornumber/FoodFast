@@ -1,41 +1,27 @@
 package sv.edu.itca.foodfast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
+
+    private static final int SPLASH_DELAY = 2000; // 2 segundos en milisegundos
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_screen);
+        setContentView(R.layout.activity_splash_screen); // Reemplaza "tu_layout" con el nombre de tu archivo XML
 
+        // Usamos un Handler para retrasar el inicio de la siguiente actividad
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Lógica para verificar si el usuario ha iniciado sesión
-                boolean usuarioHaIniciadoSesion = verificarSesion();
-
-                if (usuarioHaIniciadoSesion) {
-                    Intent intent = new Intent(SplashScreenActivity.this, IniciarSesionActivity.class);
-                    startActivity(intent);
-                } else {
-                    // Puedes agregar lógica para abrir otra actividad si el usuario no ha iniciado sesión
-                }
-
-                finish();
+                Intent intent = new Intent(SplashScreenActivity.this, IniciarSesionActivity.class);
+                startActivity(intent);
+                finish(); // Finalizamos esta actividad para que el usuario no pueda volver atrás con el botón "Back"
             }
-        }, 2000); // 2000 milisegundos o el tiempo que desees para mostrar la SplashScreen
-
-    }
-
-    private boolean verificarSesion() {
-        // Ejemplo usando SharedPreferences, ajusta según tu implementación real
-        SharedPreferences sharedPreferences = getSharedPreferences("MisPreferencias", MODE_PRIVATE);
-        return sharedPreferences.getBoolean("sesion_iniciada", false);
+        }, SPLASH_DELAY);
     }
 }
