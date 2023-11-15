@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,85 +7,106 @@
     android:background="@color/foodfast_buttonBackground"
     tools:context=".AddActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        android:paddingBottom="20dp">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="44dp"
-        android:fontFamily="@font/agbalumo_regular_style"
-        android:text="Añadir"
-        android:textColor="@color/text_blue"
-        android:textSize="@dimen/font_size_brand_large"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/editTextNombreReceta"
-        android:layout_width="341dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="27dp"
-        android:hint="Nombre de la receta:"
-        android:textColorHint="@color/text_blue"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="44dp"
+                android:fontFamily="@font/agbalumo_regular_style"
+                android:text="Añadir"
+                android:textColor="@color/text_blue"
+                android:textSize="@dimen/font_size_brand_large"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextDescripcion"
-        android:layout_width="339dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="17dp"
-        android:hint="Ingredientes"
-        android:textColorHint="@color/text_blue"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNombreReceta" />
+            <EditText
+                android:id="@+id/editTextNombreReceta"
+                android:layout_width="341dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="27dp"
+                android:hint="Nombre de la receta:"
+                android:textColorHint="@color/text_blue"
+                app:layout_constraintStart_toStartOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
-    <EditText
-        android:id="@+id/editTextDescripcion3"
-        android:layout_width="339dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="18dp"
-        android:hint="Tiempo de comida"
-        android:textColorHint="@color/text_blue"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion" />
+            <EditText
+                android:id="@+id/editTextDescripcion"
+                android:layout_width="339dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="17dp"
+                android:hint="Ingredientes"
+                android:textColorHint="@color/text_blue"
+                app:layout_constraintStart_toStartOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNombreReceta" />
 
-    <EditText
-        android:id="@+id/editTextDescripcion2"
-        android:layout_width="342dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="18dp"
-        android:hint="Instrucciones"
-        android:textColorHint="@color/text_blue"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion3" />
+            <EditText
+                android:id="@+id/editTextDescripcion3"
+                android:layout_width="339dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="18dp"
+                android:hint="Tiempo de comida"
+                android:textColorHint="@color/text_blue"
+                app:layout_constraintStart_toStartOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion" />
 
-    <Button
-        android:id="@+id/btnAgregarReceta"
-        android:layout_width="302dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/foodfast_button_primary"
-        android:text="Agregar Receta"
-        android:textColor="@color/foodfast_nav_selected"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+            <EditText
+                android:id="@+id/editTextDescripcion2"
+                android:layout_width="342dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="18dp"
+                android:hint="Instrucciones"
+                android:textColorHint="@color/text_blue"
+                app:layout_constraintStart_toStartOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion3" />
 
-    <Button
-        android:id="@+id/btnAgregarReceta3"
-        android:layout_width="225dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/foodfast_button_secondary"
-        android:text="Agregar Imagen"
-        android:textColor="@color/foodfast_nav_selected"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion2" />
+            <Button
+                android:id="@+id/btnAgregarReceta"
+                android:layout_width="302dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/foodfast_button_primary"
+                android:text="Agregar Receta"
+                android:textColor="@color/foodfast_nav_selected"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <Button
+                android:id="@+id/btnAgregarReceta3"
+                android:layout_width="225dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/foodfast_button_secondary"
+                android:text="Agregar Imagen"
+                android:textColor="@color/foodfast_nav_selected"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion2" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="303dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnAgregarReceta3"
+                app:srcCompat="@drawable/avena" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -95,20 +116,7 @@
         app:itemBackground="@color/foodfast_nav_background"
         app:itemIconTint="@color/foodfast_nav_selected"
         app:itemTextColor="@color/foodfast_nav_selected"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_alignParentBottom="true"
         app:menu="@menu/menu_navigation" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="303dp"
-        android:layout_height="240dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAgregarReceta3"
-        app:srcCompat="@drawable/avena" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
