@@ -62,20 +62,20 @@
         android:id="@+id/btnAgregarReceta"
         android:layout_width="302dp"
         android:layout_height="67dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/foodfast_button_primary"
         android:text="Agregar Receta"
         android:textColor="@color/foodfast_nav_selected"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAgregarReceta3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <Button
         android:id="@+id/btnAgregarReceta3"
         android:layout_width="225dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/foodfast_button_secondary"
         android:text="Agregar Imagen"
         android:textColor="@color/foodfast_nav_selected"
@@ -98,10 +98,10 @@
         android:id="@+id/imageView5"
         android:layout_width="303dp"
         android:layout_height="240dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAgregarReceta"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregarReceta3"
         app:srcCompat="@drawable/avena" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
