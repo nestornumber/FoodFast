@@ -27,6 +27,7 @@
         android:layout_height="38dp"
         android:layout_marginTop="27dp"
         android:hint="Nombre de la receta:"
+        android:textColorHint="@color/text_blue"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
@@ -36,6 +37,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="17dp"
         android:hint="Ingredientes"
+        android:textColorHint="@color/text_blue"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/editTextNombreReceta" />
 
@@ -45,6 +47,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="18dp"
         android:hint="Tiempo de comida"
+        android:textColorHint="@color/text_blue"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion" />
 
@@ -55,6 +58,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="18dp"
         android:hint="Instrucciones"
+        android:textColorHint="@color/text_blue"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion3" />
 
