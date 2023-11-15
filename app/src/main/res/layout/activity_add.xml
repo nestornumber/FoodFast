@@ -34,30 +34,40 @@
         android:id="@+id/editTextDescripcion"
         android:layout_width="339dp"
         android:layout_height="43dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="17dp"
         android:hint="Ingedientes"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/editTextNombreReceta" />
 
     <EditText
+        android:id="@+id/editTextDescripcion3"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="18dp"
+        android:hint="Tiempo de comida"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion" />
+
+    <EditText
         android:id="@+id/editTextDescripcion2"
         android:layout_width="342dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
         android:hint="Instrucciones"
         app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion3" />
 
     <Button
         android:id="@+id/btnAgregarReceta"
         android:layout_width="302dp"
         android:layout_height="67dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/foodfast_button_primary"
         android:text="Agregar Receta"
         android:textColor="@color/foodfast_nav_selected"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAgregarReceta3" />
 
@@ -65,12 +75,11 @@
         android:id="@+id/btnAgregarReceta3"
         android:layout_width="225dp"
         android:layout_height="59dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/foodfast_button_secondary"
         android:text="Agregar Imagen"
         android:textColor="@color/foodfast_nav_selected"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDescripcion2" />
 
