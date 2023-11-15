@@ -35,7 +35,7 @@
         android:layout_width="339dp"
         android:layout_height="43dp"
         android:layout_marginTop="17dp"
-        android:hint="Ingedientes"
+        android:hint="Ingredientes"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/editTextNombreReceta" />
 
