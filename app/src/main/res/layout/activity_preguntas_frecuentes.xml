@@ -11,12 +11,14 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/agbalumo_regular_style"
         android:text="Preguntas Frecuentes"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_huge"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        tools:layout_editor_absoluteY="46dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
@@ -27,10 +29,10 @@
         android:layout_marginTop="51dp"
         android:fontFamily="@font/cabin_semibold_style"
         android:text="¿Cómo puedo buscar una receta específica en la aplicación?"
-        android:textColor="@color/text_blue"
 
+        android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <TextView
@@ -42,10 +44,10 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/cabin_regular"
         android:text="Para buscar una receta, simplemente haz clic en la opción Buscar en la barra de navegación."
-        android:textColor="@color/text_blue"
 
+        android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
@@ -54,12 +56,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="31dp"
         android:fontFamily="@font/cabin_semibold_style"
         android:text="¿Cómo añado una nueva receta a la aplicación?"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
@@ -68,12 +70,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="17dp"
         android:fontFamily="@font/cabin_regular"
         android:text="Para añadir una nueva receta, selecciona la opción Añadir en la barra de navegación"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
@@ -87,7 +89,7 @@
         android:text="¿Cómo puedo proporcionar retroalimentación sobre la aplicación?"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
@@ -101,7 +103,7 @@
         android:text="Nos encantaría recibir tus comentarios. Dirígete a la sección Ajustes y selecciona Contáctanos, ahí encontrarás formas de contactarnos."
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:layout_editor_absoluteX="36dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
