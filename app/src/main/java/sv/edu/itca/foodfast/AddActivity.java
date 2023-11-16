@@ -4,7 +4,8 @@ package sv.edu.itca.foodfast;
 
   import android.Manifest;
 import android.content.Context;
-import android.content.Intent;
+  import android.content.DialogInterface;
+  import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -19,7 +20,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+  import androidx.appcompat.app.AlertDialog;
+  import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -39,6 +41,7 @@ import java.util.Objects;
             private EditText editTextTiempoComida;
             private EditText editTextInstrucciones;
 
+            private Button btnAgregarReceta;
             private Uri imageUri;
 
             @Override
@@ -46,8 +49,18 @@ import java.util.Objects;
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.activity_add);
 
+                btnAgregarReceta = findViewById(R.id.btnAgregarReceta);
                 BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
                 bottomNavigationView.setSelectedItemId(R.id.add);
+
+
+                btnAgregarReceta.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mostrarDialogoPremium();
+
+                    }
+                });
                 bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -173,5 +186,19 @@ import java.util.Objects;
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
                 String path = MediaStore.Images.Media.insertImage(context.getContentResolver(), bitmap, "Image Title", null);
                 return Uri.parse(path);
+            }
+
+            public void mostrarDialogoPremium() {
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle("Función Premium");
+                builder.setMessage("Esta función está disponible en la versión Premium.");
+                builder.setPositiveButton("Entendido", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Aquí puedes agregar lógica adicional si es necesario
+                        dialog.dismiss();
+                    }
+                });
+                builder.create().show(); // Muestra el cuadro de diálogo
             }
         }

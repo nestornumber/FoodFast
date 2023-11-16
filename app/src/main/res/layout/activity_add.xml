@@ -83,7 +83,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                android:onClick="mostrarDialogoPremium"/>
 
             <Button
                 android:id="@+id/btnAgregarReceta3"
