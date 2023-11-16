@@ -13,7 +13,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button avenaButton, salmonButton , pastaButton, ensaladaButton, omeletteButton ,quinoaButton;
+    private Button avenaButton, salmonButton , pastaButton, ensaladaButton, omeletteButton ,quinoaButton, pupusasBtn, soparesBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +25,25 @@ public class MainActivity extends AppCompatActivity {
          pastaButton = findViewById(R.id.button8);
          ensaladaButton = findViewById(R.id.button10);
          omeletteButton = findViewById(R.id.button9);
-         quinoaButton = findViewById(R.id.button12);
+         quinoaButton = findViewById(R.id.button6);
+         pupusasBtn = findViewById(R.id.button7);
+         soparesBtn = findViewById(R.id.button8);
 
+        soparesBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sopares = new Intent(MainActivity.this, VistaRecetaSoparesActivity.class);
+                startActivity(sopares);
+            }
+        });
+
+        pupusasBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pupusa = new Intent(MainActivity.this, VistaRecetaPupusasActivity.class);
+                startActivity(pupusa);
+            }
+        });
         avenaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
