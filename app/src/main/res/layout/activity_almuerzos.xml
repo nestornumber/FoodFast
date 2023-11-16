@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="52dp"
                 android:fontFamily="@font/agbalumo_regular_style"
-                android:text="Almuerzos"
+                android:text="@string/almuerzos"
                 android:textColor="@color/text_blue"
                 android:textSize="@dimen/font_size_brand_large"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="Ensalada de pollo"
+                android:text="@string/ensalada_de_pollo2"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -67,7 +67,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="Pasta integral"
+                android:text="@string/pasta_integral2"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -90,7 +90,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="SOPA DE RES"
+                android:text="@string/sopa_de_res2"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"

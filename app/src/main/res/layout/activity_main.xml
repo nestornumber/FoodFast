@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"
                 android:fontFamily="@font/agbalumo_regular_style"
-                android:text="Recetas"
+                android:text="@string/recetas"
                 android:textColor="@color/text_blue"
                 android:textSize="@dimen/font_size_brand_large"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +43,7 @@
                 android:padding="10dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:text="Salmón al horno"
+                android:text="@string/salm_n_al_horno"
 
                 android:textAlignment="center"
                 android:textAllCaps="true"
@@ -65,7 +65,7 @@
                 android:padding="10dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:text="Pasta integral"
+                android:text="@string/pasta_integral"
 
                 android:textAlignment="center"
                 android:textAllCaps="true"
@@ -87,7 +87,7 @@
                 android:padding="10dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:text="Ensalada de pollo"
+                android:text="@string/ensalada_de_pollo"
 
                 android:textAlignment="center"
                 android:textAllCaps="true"
@@ -109,7 +109,7 @@
                 android:padding="10dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:text="Omelette de espinacas "
+                android:text="@string/omelette_de_espinacas"
 
                 android:textAlignment="center"
                 android:textAllCaps="true"
@@ -132,7 +132,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="Avena"
+                android:text="@string/avena"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -154,7 +154,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="Quinoa con verduras "
+                android:text="@string/quinoa_con_verduras"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -176,7 +176,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="PUPUSAS"
+                android:text="@string/pupusas"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -198,7 +198,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="SOPA DE RES"
+                android:text="@string/sopa_de_res"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -220,7 +220,7 @@
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
 
-                android:text="ENCHILADAS"
+                android:text="@string/enchiladas"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -242,7 +242,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="TAMALES"
+                android:text="@string/tamales"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -264,7 +264,7 @@
                 android:paddingStart="15dp"
 
                 android:paddingEnd="15dp"
-                android:text="PANES CON POLLO"
+                android:text="@string/panes_con_pollo"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"

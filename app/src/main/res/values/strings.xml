@@ -12,9 +12,7 @@ Instrucciones: \nCocinar la avena según las instrucciones del paquete. \nServir
 \nInstrucciones: \nSaltear las espinacas en una sartén hasta que se marchiten. \nBatir los huevos, agregar sal y pimienta al gusto, verter sobre las espinacas y cocinar hasta que esté firme. \nAgregar el queso encima y doblar el omelette.</string>
     <string name="receta_quinoa">Ingredientes: \nQuinoa \ncalabacín \npimientos \nchampiñones \ncebolla \naceite de oliva \najo \nsal y pimienta.
 \nInstrucciones: \nCocinar la quinoa según las instrucciones. \nEn una sartén, saltear las verduras con ajo en aceite de oliva hasta que estén tiernas. \nMezclar las verduras con la quinoa.</string>
-    <string name="receta_pupusa">Ingredientes:\n 2 tazas de harina de maíz \n1-1.5 tazas de agua tibia \n1 taza de queso rallado (preferiblemente quesillo) \nOpciones de relleno: chicharrón, frijoles refritos, queso
-\n Instrucciones:\nEn un recipiente, mezcla la harina de maíz con el agua tibia. \nAmasa hasta obtener una masa suave y maleable.
-Forma pequeñas bolas con la masa.\nCon el dedo, haz un agujero en cada bola y rellénalo con el ingrediente de tu elección (chicharrón, frijoles, queso).\nCierra la masa alrededor del relleno y forma una especie de disco plano.\nEn una sartén caliente o plancha, cocina las pupusas por ambos lados hasta que estén doradas y cocidas por dentro.</string>
+    <string name="receta_pupusa">Ingredientes:  2 tazas de harina de maíz  1-1.5 tazas de agua tibia  1 taza de queso rallado (preferiblemente quesillo)  Opciones de relleno: chicharrón, frijoles refritos, queso   Instrucciones: En un recipiente, mezcla la harina de maíz con el agua tibia.  Amasa hasta obtener una masa suave y maleable. Forma pequeñas bolas con la masa. Con el dedo, haz un agujero en cada bola y rellénalo con el ingrediente de tu elección (chicharrón, frijoles, queso). Cierra la masa alrededor del relleno y forma una especie de disco plano. En una sartén caliente o plancha, cocina las pupusas por ambos lados hasta que estén doradas y cocidas por dentro.</string>
     <string name="receta_sopares">Ingredientes:\n500 g de carne de res (preferiblemente con hueso)\n1 yuca cortada en trozos\n2 elotes (maíz) cortados en rodajas\n2 zanahorias en rodajas\n2 papas cortadas en trozos\n1 plátano verde cortado en trozos\n1 chile verde picado\n1 cebolla picada\n2 dientes de ajo picados\nHojas de cilantro\nSal y pimienta al gusto\n
 Instrucciones:\nEn una olla grande, hierve la carne de res con suficiente agua hasta que esté tierna.\nAgrega la yuca, el elote, las zanahorias, las papas y el plátano a la olla.\nEn una sartén aparte, saltea el chile, la cebolla y el ajo hasta que estén dorados y agrégalos a la olla.\nCocina a fuego medio hasta que todas las verduras estén tiernas y los sabores se mezclen.\nAgrega sal, pimienta y cilantro al gusto antes de servir.</string>
     <string name="receta_enchiladas">ngredientes:\n12 tortillas de maíz\n2 tazas de pollo desmenuzado\n2 tazas de repollo rallado\n1 taza de salsa de tomate\n1 taza de queso rallado\n1 cebolla picada\nAceite vegetal\nCrema agria y aguacate para servir (opcional)\n
@@ -24,4 +22,85 @@ Instrucciones:\nHierve la pechuga de pavo en el caldo de pollo hasta que esté c
     <string name="receta_text">INGREDIENTES</string>
     <string name="receta_tamales">Ingredientes:\n2 tazas de harina de maíz\n1 taza de manteca de cerdo o vegetal\n1 taza de caldo de pollo\n1/2 taza de guisantes (arvejas)\n1 zanahoria rallada\n1 pimiento rojo picado\n1 chile verde picado\n1/2 taza de garbanzos cocidos y escurridos\n12 hojas de plátano (o hojas de maíz) limpias y secas\nSal al gusto\n
 Instrucciones:\nEn un recipiente grande, mezcla la harina de maíz con la manteca hasta que esté bien incorporada.\nAgrega gradualmente el caldo de pollo hasta obtener una masa suave y maleable.\nAñade los guisantes, zanahoria, pimiento, chile y garbanzos a la masa. Mezcla bien.\nExtiende una hoja de plátano y coloca una porción de masa en el centro. \nEnvuelve la masa con la hoja, doblando los extremos para formar un paquete.\nCocina los tamales al vapor durante aproximadamente 1.5-2 horas o hasta que la masa esté firme.</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="usuario">Usuario:</string>
+    <string name="contrase_a">Contraseña:</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="preguntas_frecuentes">Preguntas Frecuentes</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="cerrar_la_app">Cerrar la app</string>
+    <string name="a_adir">Añadir</string>
+    <string name="nombre_de_la_receta">Nombre de la receta:</string>
+    <string name="ingredientes">Ingredientes</string>
+    <string name="tiempo_de_comida">Tiempo de comida</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="agregar_receta">Agregar Receta</string>
+    <string name="agregar_imagen">Agregar Imagen</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="nombre_de_usuario">Nombre de Usuario</string>
+    <string name="contrase_a1">Contraseña</string>
+    <string name="recuerda_mis_datos">Recuerda mis datos</string>
+    <string name="iniciar_sesi_n3">INICIAR SESIÓN</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="recetas">Recetas</string>
+    <string name="salm_n_al_horno">Salmón al horno</string>
+    <string name="pasta_integral">Pasta integral</string>
+    <string name="ensalada_de_pollo">Ensalada de pollo</string>
+    <string name="omelette_de_espinacas">Omelette de espinacas</string>
+    <string name="avena">Avena</string>
+    <string name="quinoa_con_verduras">Quinoa con verduras</string>
+    <string name="pupusas">PUPUSAS</string>
+    <string name="sopa_de_res">SOPA DE RES</string>
+    <string name="enchiladas">ENCHILADAS</string>
+    <string name="tamales">TAMALES</string>
+    <string name="panes_con_pollo">PANES CON POLLO</string>
+    <string name="almuerzos">Almuerzos</string>
+    <string name="ensalada_de_pollo2">Ensalada de pollo</string>
+    <string name="sopa_de_res2">SOPA DE RES</string>
+    <string name="pasta_integral2">Pasta integral</string>
+    <string name="cenas">Cenas</string>
+    <string name="quinoa_con_verduras2">Quinoa con verduras</string>
+    <string name="salm_n_al_horno2">Salmón al horno</string>
+    <string name="enchiladas2">Enchiladas</string>
+    <string name="desayunos">Desayunos</string>
+    <string name="avena2">Avena</string>
+    <string name="omelette_de_espinacas2">Omelette de espinacas</string>
+    <string name="pupusas2">Pupusas</string>
+    <string name="preguntas_frecuentes2">Preguntas Frecuentes</string>
+    <string name="c_mo_puedo_buscar_una_receta_espec_fica_en_la_aplicaci_n">¿Cómo puedo buscar una receta específica en la aplicación?</string>
+    <string name="para_buscar_una_receta_simplemente_haz_clic_en_la_opci_n_buscar_en_la_barra_de_navegaci_n">Para buscar una receta, simplemente haz clic en la opción Buscar en la barra de navegación.</string>
+    <string name="c_mo_a_ado_una_nueva_receta_a_la_aplicaci_n">¿Cómo añado una nueva receta a la aplicación?</string>
+    <string name="para_a_adir_una_nueva_receta_selecciona_la_opci_n_a_adir_en_la_barra_de_navegaci_n">Para añadir una nueva receta, selecciona la opción Añadir en la barra de navegación</string>
+    <string name="c_mo_puedo_proporcionar_retroalimentaci_n_sobre_la_aplicaci_n">¿Cómo puedo proporcionar retroalimentación sobre la aplicación?</string>
+    <string name="nos_encantar_a_recibir_tus_comentarios_dir_gete_a_la_secci_n_ajustes_y_selecciona_cont_ctanos_ah_encontrar_s_formas_de_contactarnos">Nos encantaría recibir tus comentarios. Dirígete a la sección Ajustes y selecciona Contáctanos, ahí encontrarás formas de contactarnos.</string>
+    <string name="registrarse2">Registrarse</string>
+    <string name="nombre_de_usuario2">Nombre de Usuario</string>
+    <string name="contrase_a2">Contraseña</string>
+    <string name="se_recomienda_una_contrase_a_segura_y_f_cil_de_recordar">Se recomienda una contraseña segura y fácil de recordar.</string>
+    <string name="registrarse3">Registrarse</string>
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="iniciar_sesi_n4">Iniciar Sesión</string>
+    <string name="categor_as">CATEGORÍAS</string>
+    <string name="desayunos2">Desayunos</string>
+    <string name="almuerzos2">Almuerzos</string>
+    <string name="cenas2">Cenas</string>
+    <string name="receta3">Receta</string>
+    <string name="avena_con_frutas3">Avena con frutas</string>
+    <string name="aporte_de">Aporte De</string>
+    <string name="calificaci_n">Calificación</string>
+    <string name="receta5">Receta</string>
+    <string name="ensalda_de_pollo2">Ensalda de Pollo</string>
+    <string name="aporte_de2">Aporte De</string>
+    <string name="calificaci_n2">Calificación</string>
+    <string name="omelette_de_espinacas3">Omelette de Espinacas</string>
+    <string name="aporte_de3">Aporte De</string>
+    <string name="pasta_integral4">Pasta integral</string>
+    <string name="quinoa_con_verduras3">Quinoa con Verduras</string>
+    <string name="salm_n_al_horno3">Salmón al Horno</string>
+    <string name="sopa_de_res3">Sopa de Res</string>
+    <string name="panes_con_pollo3">Panes con Pollo</string>
+    <string name="pupusas3">Pupusas</string>
+    <string name="sopa_de_res4">Sopa de Res</string>
+    <string name="tamales3">Tamales</string>
 </resources>

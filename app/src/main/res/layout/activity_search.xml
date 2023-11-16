@@ -31,7 +31,7 @@
 
                 android:layout_marginBottom="55dp"
                 android:fontFamily="@font/cabin_semibold"
-                android:text="CATEGORÍAS"
+                android:text="@string/categor_as"
                 android:textColor="@color/text_blue"
                 android:textSize="@dimen/font_size_medium"
                 app:layout_constraintBottom_toTopOf="@+id/button2"
@@ -51,7 +51,7 @@
 
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Desayunos"
+                android:text="@string/desayunos2"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -73,7 +73,7 @@
 
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Almuerzos"
+                android:text="@string/almuerzos2"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"
@@ -95,7 +95,7 @@
 
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Cenas"
+                android:text="@string/cenas2"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@color/text_white"

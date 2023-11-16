@@ -25,7 +25,7 @@
                 android:layout_marginStart="44dp"
                 android:layout_marginTop="40dp"
                 android:fontFamily="@font/agbalumo_regular_style"
-                android:text="Cuenta"
+                android:text="@string/cuenta"
                 android:textColor="@color/text_blue"
                 android:textSize="@dimen/font_size_huge"
                 app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginTop="49dp"
                 android:fontFamily="@font/cabin_semibold_style"
-                android:text="Usuario: "
+                android:text="@string/usuario"
                 android:textSize="20sp"
 
 
@@ -54,7 +54,7 @@
                 android:layout_below="@+id/textViewUsuario"
                 android:layout_marginTop="40dp"
                 android:fontFamily="@font/cabin_semibold_style"
-                android:text="Contraseña: "
+                android:text="@string/contrase_a"
                 android:textSize="20sp"
 
 
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="97dp"
                 android:fontFamily="@font/agbalumo_regular_style"
-                android:text="Ajustes"
+                android:text="@string/ajustes"
                 android:textColor="@color/text_blue"
                 android:textSize="@dimen/font_size_huge"
                 app:layout_constraintStart_toStartOf="@+id/textView6"
@@ -86,7 +86,7 @@
                 android:padding="10dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Preguntas Frecuentes"
+                android:text="@string/preguntas_frecuentes"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/text_white"
@@ -126,7 +126,7 @@
                 android:padding="10dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Cerrar sesión"
+                android:text="@string/cerrar_sesi_n"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
 
@@ -146,7 +146,7 @@
                 android:padding="10dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
-                android:text="Cerrar la app"
+                android:text="@string/cerrar_la_app"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
 

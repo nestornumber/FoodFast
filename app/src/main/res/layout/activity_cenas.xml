@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="52dp"
                 android:fontFamily="@font/agbalumo_regular_style"
-                android:text="Cenas"
+                android:text="@string/cenas"
                 android:textColor="@color/text_blue"
                 android:textSize="@dimen/font_size_brand_large"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
                 android:padding="10dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:text="Quinoa con verduras "
+                android:text="@string/quinoa_con_verduras2"
 
                 android:textAlignment="center"
                 android:textAllCaps="true"
@@ -62,7 +62,7 @@
                 android:padding="10dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:text="Salmón al horno"
+                android:text="@string/salm_n_al_horno2"
                 android:textAlignment="center"
 
                 android:textAllCaps="true"
@@ -83,7 +83,7 @@
                 android:padding="10dp"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:text="Enchiladas"
+                android:text="@string/enchiladas2"
                 android:textAlignment="center"
 
                 android:textAllCaps="true"
