@@ -166,7 +166,7 @@ import java.util.Objects;
 
                     limpiarCampos();
 
-                    Toast.makeText(this, "Receta guardada", Toast.LENGTH_SHORT).show();
+                  mostrarDialogoPremium();
                 } else {
                     Toast.makeText(this, "Llene todos los campos y agregue una imagen", Toast.LENGTH_SHORT).show();
                 }
