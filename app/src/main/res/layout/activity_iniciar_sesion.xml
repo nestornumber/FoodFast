@@ -127,7 +127,7 @@
         android:layout_height="32dp"
         android:layout_marginTop="22dp"
         android:fontFamily="@font/cabin_regular"
-        android:text="Recuérdame"
+        android:text="Recuerda mis datos"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
         app:layout_constraintEnd_toEndOf="parent"
