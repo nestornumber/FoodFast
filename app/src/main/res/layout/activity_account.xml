@@ -40,6 +40,8 @@
         android:layout_marginTop="49dp"
         android:text="Usuario: "
         android:textSize="20sp"
+        android:fontFamily="@font/cabin_semibold_style"
+
 
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView6"
@@ -53,6 +55,8 @@
         android:layout_marginTop="40dp"
         android:text="Contraseña: "
         android:textSize="20sp"
+        android:fontFamily="@font/cabin_semibold_style"
+
 
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textViewUsuario"
@@ -71,106 +75,87 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewContraseña" />
 
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/foodfast_button_primary"
-        android:fontFamily="@font/cabin_regular"
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/foodfast_button_primary"
+                android:fontFamily="@font/cabin_regular"
 
-        android:padding="10dp"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
-        android:text="Preguntas Frecuentes"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textColor="@color/text_white"
+                android:padding="10dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Preguntas Frecuentes"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/text_white"
 
-        android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
-        android:background="@drawable/foodfast_button_primary"
-        android:fontFamily="@font/cabin_regular"
-
-        android:padding="10dp"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
-        android:text="Sobre la APP"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textColor="@color/text_white"
-
-        android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+                android:textSize="@dimen/font_size_small"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        android:background="@drawable/foodfast_button_primary"
-        android:fontFamily="@font/cabin_regular"
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/foodfast_button_primary"
 
-        android:padding="10dp"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
-        android:text="Contáctanos"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
-        android:textColor="@color/text_white"
+                android:fontFamily="@font/cabin_regular"
+                android:padding="10dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Contáctanos"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
 
-        android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/font_size_small"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/button1" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
-        android:background="@drawable/foodfast_button_primary"
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/foodfast_button_primary"
 
-        android:fontFamily="@font/cabin_regular"
-        android:padding="10dp"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
-        android:text="Cerrar la app"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
+                android:fontFamily="@font/cabin_regular"
+                android:padding="10dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Cerrar sesión"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
 
-        android:textColor="@color/text_white"
-        android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/font_size_small"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/button4" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:background="@drawable/foodfast_button_primary"
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/foodfast_button_primary"
 
-        android:fontFamily="@font/cabin_regular"
-        android:padding="10dp"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
-        android:text="Cerrar sesión"
-        android:textAlignment="textStart"
-        android:textAllCaps="false"
+                android:fontFamily="@font/cabin_regular"
+                android:padding="10dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="Cerrar la app"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
 
-        android:textColor="@color/text_white"
-        android:textSize="@dimen/font_size_small"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/font_size_small"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/button3" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
