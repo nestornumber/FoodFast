@@ -17,7 +17,7 @@ public class AlmuerzosActivity extends AppCompatActivity {
 
 
         pastaBtn = findViewById(R.id.button2);
-        ensaladaPolloButton = findViewById(R.id.button3);
+        ensaladaPolloButton = findViewById(R.id.button1);
         soparesBtn = findViewById(R.id.button3);
 
 
