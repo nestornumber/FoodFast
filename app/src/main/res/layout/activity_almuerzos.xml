@@ -39,22 +39,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button13" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar"
-        app:itemBackground="@color/foodfast_nav_background"
-        app:itemIconTint="@color/foodfast_nav_selected"
-        app:itemTextColor="@color/foodfast_nav_selected"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu_navigation" >
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
