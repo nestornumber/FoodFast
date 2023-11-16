@@ -96,25 +96,25 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="31dp"
-                android:background="@drawable/foodfast_button_primary"
+<!--            <Button-->
+<!--                android:id="@+id/button3"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="31dp"-->
+<!--                android:background="@drawable/foodfast_button_primary"-->
 
-                android:fontFamily="@font/cabin_regular"
-                android:padding="10dp"
-                android:paddingStart="25dp"
-                android:paddingEnd="25dp"
-                android:text="Contáctanos"
-                android:textAlignment="textStart"
-                android:textAllCaps="false"
+<!--                android:fontFamily="@font/cabin_regular"-->
+<!--                android:padding="10dp"-->
+<!--                android:paddingStart="25dp"-->
+<!--                android:paddingEnd="25dp"-->
+<!--                android:text="Contáctanos"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textAllCaps="false"-->
 
-                android:textColor="@color/text_white"
-                android:textSize="@dimen/font_size_small"
-                app:layout_constraintStart_toStartOf="@+id/textView7"
-                app:layout_constraintTop_toBottomOf="@+id/button1" />
+<!--                android:textColor="@color/text_white"-->
+<!--                android:textSize="@dimen/font_size_small"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView7"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/button1" />-->
 
             <Button
                 android:id="@+id/button5"
