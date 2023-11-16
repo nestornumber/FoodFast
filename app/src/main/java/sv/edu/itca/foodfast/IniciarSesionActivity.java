@@ -28,8 +28,12 @@ public class IniciarSesionActivity extends AppCompatActivity {
         EditText editTextUsuario = findViewById(R.id.editText);
         EditText editTextContrasena = findViewById(R.id.editText1);
         Button btnIniciarSesion = findViewById(R.id.button2);
+<<<<<<< HEAD
         Button btnCrearCuenta = findViewById(R.id.button);
         Button btnCrear = findViewById(R.id.btn2);
+=======
+        Button btnCrearCuenta = findViewById(R.id.btnInvitado);
+>>>>>>> b82d334773d33b6da5005954443ac2f773bf57fc
         Switch switchRecuerdame = findViewById(R.id.switch1);
 
         SharedPreferences preferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
