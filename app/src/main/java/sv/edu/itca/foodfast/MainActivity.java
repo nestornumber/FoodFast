@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-         avenaButton = findViewById(R.id.button5);
-         salmonButton = findViewById(R.id.button1);
-         pastaButton = findViewById(R.id.button2);
-         ensaladaButton = findViewById(R.id.button3);
-         omeletteButton = findViewById(R.id.button4);
+        salmonButton = findViewById(R.id.button1);
+        pastaButton = findViewById(R.id.button2);
+        ensaladaButton = findViewById(R.id.button3);
+        omeletteButton = findViewById(R.id.button4);
+        avenaButton = findViewById(R.id.button5);
          quinoaButton = findViewById(R.id.button6);
          pupusasBtn = findViewById(R.id.button7);
          soparesBtn = findViewById(R.id.button8);
