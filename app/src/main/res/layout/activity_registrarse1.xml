@@ -123,6 +123,7 @@
                 android:padding="10dp"
                 android:paddingStart="25dp"
                 android:paddingEnd="25dp"
+                android:inputType="textPassword"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/text_blue"

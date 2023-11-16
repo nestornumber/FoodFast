@@ -88,7 +88,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
             }
         });
 
-     
+
     }
 
     private boolean verificarDatosEnSharedPreferences(String usuario, String contrasena) {
