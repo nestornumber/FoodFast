@@ -18,7 +18,7 @@ public class CenasActivity extends AppCompatActivity {
 
 
 
-        salmonBtn = findViewById(R.id.button5);
+        salmonBtn = findViewById(R.id.button1);
         quinoaBtn = findViewById(R.id.button6);
 
         salmonBtn.setOnClickListener(new View.OnClickListener() {

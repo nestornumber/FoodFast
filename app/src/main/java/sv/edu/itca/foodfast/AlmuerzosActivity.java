@@ -16,8 +16,8 @@ public class AlmuerzosActivity extends AppCompatActivity {
         setContentView(R.layout.activity_almuerzos);
 
 
-        pastaBtn = findViewById(R.id.button14);
-        ensaladaPolloButton = findViewById(R.id.button13);
+        pastaBtn = findViewById(R.id.button2);
+        ensaladaPolloButton = findViewById(R.id.button3);
 
         ensaladaPolloButton.setOnClickListener(new View.OnClickListener() {
             @Override

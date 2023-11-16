@@ -13,21 +13,48 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button avenaButton, salmonButton , pastaButton, ensaladaButton, omeletteButton ,quinoaButton, pupusasBtn, soparesBtn;
+    private Button avenaButton, salmonButton , pastaButton, ensaladaButton, omeletteButton ,quinoaButton, pupusasBtn, soparesBtn, panespolloBtn, tamalesBtn, enchiladabtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-         avenaButton = findViewById(R.id.button11);
-         salmonButton = findViewById(R.id.button7);
-         pastaButton = findViewById(R.id.button8);
-         ensaladaButton = findViewById(R.id.button10);
-         omeletteButton = findViewById(R.id.button9);
+         avenaButton = findViewById(R.id.button5);
+         salmonButton = findViewById(R.id.button1);
+         pastaButton = findViewById(R.id.button2);
+         ensaladaButton = findViewById(R.id.button3);
+         omeletteButton = findViewById(R.id.button4);
          quinoaButton = findViewById(R.id.button6);
          pupusasBtn = findViewById(R.id.button7);
          soparesBtn = findViewById(R.id.button8);
+         panespolloBtn = findViewById(R.id.button11);
+         tamalesBtn = findViewById(R.id.button10);
+         enchiladabtn = findViewById(R.id.button9);
+
+         enchiladabtn.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent enchilada = new Intent(MainActivity.this, VistaRecetaEnchiladasActivity.class);
+                 startActivity(enchilada);
+             }
+         });
+
+         tamalesBtn.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent tamales = new Intent(MainActivity.this, VistaRecetaTamalesActivity.class);
+                 startActivity(tamales);
+             }
+         });
+
+         panespolloBtn.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent panespollo = new Intent(MainActivity.this, VistaRecetaPanespolloActivity.class);
+                 startActivity(panespollo);
+             }
+         });
 
         soparesBtn.setOnClickListener(new View.OnClickListener() {
             @Override

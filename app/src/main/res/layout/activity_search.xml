@@ -25,13 +25,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+                android:layout_marginStart="149dp"
+                android:layout_marginTop="89dp"
+                android:layout_marginEnd="146dp"
+
+                android:layout_marginBottom="55dp"
                 android:fontFamily="@font/cabin_semibold"
                 android:text="CATEGORÍAS"
                 android:textColor="@color/text_blue"
-
                 android:textSize="@dimen/font_size_medium"
-                tools:layout_editor_absoluteX="148dp"
-                tools:layout_editor_absoluteY="171dp" />
+                app:layout_constraintBottom_toTopOf="@+id/button2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
             <Button
                 android:id="@+id/button2"
@@ -103,9 +110,15 @@
                 android:id="@+id/searchView"
                 android:layout_width="312dp"
                 android:layout_height="40dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="89dp"
                 android:background="@drawable/foodfast_search_button"
-                tools:layout_editor_absoluteX="49dp"
-                tools:layout_editor_absoluteY="42dp" />
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
