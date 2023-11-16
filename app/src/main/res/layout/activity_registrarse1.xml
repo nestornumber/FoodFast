@@ -60,9 +60,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
-<<<<<<< HEAD
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editText2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
@@ -80,7 +79,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
-=======
+
             <EditText
                 android:id="@+id/editText"
                 android:layout_width="300dp"
@@ -99,7 +98,6 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
->>>>>>> b82d334773d33b6da5005954443ac2f773bf57fc
 
             <TextView
                 android:id="@+id/textView4"

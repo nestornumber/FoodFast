@@ -146,6 +146,3 @@
         app:menu="@menu/menu_navigation" />
 
 </RelativeLayout>
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
