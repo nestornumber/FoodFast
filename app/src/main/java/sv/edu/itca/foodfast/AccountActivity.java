@@ -24,7 +24,7 @@ public class AccountActivity extends AppCompatActivity {
         TextView textViewContrasena = findViewById(R.id.textViewContraseña);
 
         Button btnPreguntasFrecuentes = findViewById(R.id.button1);
-        Button btnSobreLaApp = findViewById(R.id.button2);
+//        Button btnSobreLaApp = findViewById(R.id.button2);
         Button btnCerrarApp = findViewById(R.id.button4);
         Button btnCerrarSesion = findViewById(R.id.button5);
 
@@ -35,12 +35,12 @@ public class AccountActivity extends AppCompatActivity {
             }
         });
 
-        btnSobreLaApp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(AccountActivity.this, AcercaDeLaAppActivity.class));
-            }
-        });
+//        btnSobreLaApp.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(AccountActivity.this, AcercaDeLaAppActivity.class));
+//            }
+//        });
 
         btnCerrarApp.setOnClickListener(new View.OnClickListener() {
             @Override
