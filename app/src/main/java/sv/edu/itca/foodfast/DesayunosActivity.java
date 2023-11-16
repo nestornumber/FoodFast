@@ -18,8 +18,8 @@ public class DesayunosActivity extends AppCompatActivity {
 
 
 
-        avenaBtn = findViewById(R.id.button5);
-        omeletteBtn = findViewById(R.id.button4);
+        avenaBtn = findViewById(R.id.button1);
+        omeletteBtn = findViewById(R.id.button2);
 
         avenaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
