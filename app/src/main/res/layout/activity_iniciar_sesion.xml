@@ -96,6 +96,7 @@
         android:textAllCaps="false"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
