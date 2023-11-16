@@ -14,13 +14,11 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import sv.edu.itca.foodfast.MainActivity;
-import sv.edu.itca.foodfast.RegistrarseActivity1;
-
 public class IniciarSesionActivity extends AppCompatActivity {
 
     private static final String PREFS_NAME = "UserData";
     private int intentosFallidos = 0;
+    private AlertDialog alertDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +29,8 @@ public class IniciarSesionActivity extends AppCompatActivity {
         EditText editTextContrasena = findViewById(R.id.editText1);
         Button btnIniciarSesion = findViewById(R.id.button2);
         Button btnCrearCuenta = findViewById(R.id.button);
+        Button btnCrear = findViewById(R.id.btn2);
         Switch switchRecuerdame = findViewById(R.id.switch1);
-
 
         SharedPreferences preferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
         boolean recuerdame = preferences.getBoolean("recuerdame", false);
@@ -48,6 +46,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
 
         if (usuarioRegistrado) {
             btnCrearCuenta.setVisibility(View.GONE);
+            btnCrear.setVisibility(View.GONE);
         }
 
         btnIniciarSesion.setOnClickListener(new View.OnClickListener() {
@@ -85,7 +84,13 @@ public class IniciarSesionActivity extends AppCompatActivity {
             }
         });
 
-
+        btnCrear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IniciarSesionActivity.this, RegistrarseActivity1.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private boolean verificarDatosEnSharedPreferences(String usuario, String contrasena) {
@@ -103,8 +108,6 @@ public class IniciarSesionActivity extends AppCompatActivity {
         editor.putBoolean("recuerdame", true);
         editor.apply();
     }
-
-    private AlertDialog alertDialog;
 
     private void mostrarMensajeConteoRegresivo() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -128,6 +131,4 @@ public class IniciarSesionActivity extends AppCompatActivity {
             }
         }.start();
     }
-
-
 }

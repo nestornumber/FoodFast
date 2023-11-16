@@ -94,6 +94,7 @@
         android:paddingEnd="25dp"
         android:textAlignment="textStart"
         android:textAllCaps="false"
+        android:inputType="textPassword"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
         app:layout_constraintEnd_toEndOf="parent"
