@@ -89,6 +89,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/foodfast_edit_text"
         android:fontFamily="@font/cabin_regular"
+        android:inputType="textPassword"
         android:padding="10dp"
         android:paddingStart="25dp"
         android:paddingEnd="25dp"
@@ -96,7 +97,6 @@
         android:textAllCaps="false"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_small"
-        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,25 +143,24 @@
         android:id="@+id/btnInvitado"
         android:layout_width="224dp"
         android:layout_height="45dp"
-        android:layout_marginTop="11dp"
 
-        android:background="@drawable/foodfast_button_primary"
+        android:background="@drawable/foodfast_button_secondary"
         android:fontFamily="@font/cabin_bold"
         android:onClick="onInvitadoButtonClick"
         android:padding="10dp"
         android:paddingStart="25dp"
         android:paddingEnd="25dp"
 
-        android:text="INVITADO"
+        android:text="CREAR CUENTA"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/text_white"
         android:textIsSelectable="true"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        tools:layout_editor_absoluteY="624dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -177,26 +176,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="19dp"-->
 
-        android:background="@drawable/foodfast_button_secondary"
-        android:fontFamily="@font/cabin_regular"
-        android:padding="10dp"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
-        android:text="REGISTRARSE"
+    <!--        android:background="@drawable/foodfast_button_secondary"-->
+    <!--        android:fontFamily="@font/cabin_regular"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:paddingStart="25dp"-->
+    <!--        android:paddingEnd="25dp"-->
+    <!--        android:text="REGISTRARSE"-->
 
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="@color/text_white"
-        android:textSize="@dimen/font_size_small"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+    <!--        android:textAlignment="center"-->
+    <!--        android:textAllCaps="true"-->
+    <!--        android:textColor="@color/text_white"-->
+    <!--        android:textSize="@dimen/font_size_small"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView5" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
