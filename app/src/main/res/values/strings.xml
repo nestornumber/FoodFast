@@ -12,6 +12,7 @@ Instrucciones: \nCocinar la avena según las instrucciones del paquete. \nServir
 \nInstrucciones: \nSaltear las espinacas en una sartén hasta que se marchiten. \nBatir los huevos, agregar sal y pimienta al gusto, verter sobre las espinacas y cocinar hasta que esté firme. \nAgregar el queso encima y doblar el omelette.</string>
     <string name="receta_quinoa">Ingredientes: \nQuinoa \ncalabacín \npimientos \nchampiñones \ncebolla \naceite de oliva \najo \nsal y pimienta.
 \nInstrucciones: \nCocinar la quinoa según las instrucciones. \nEn una sartén, saltear las verduras con ajo en aceite de oliva hasta que estén tiernas. \nMezclar las verduras con la quinoa.</string>
+
+
     <string name="receta_text">INGREDIENTES</string>
-    
 </resources>
