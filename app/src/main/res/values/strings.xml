@@ -12,7 +12,12 @@ Instrucciones: \nCocinar la avena según las instrucciones del paquete. \nServir
 \nInstrucciones: \nSaltear las espinacas en una sartén hasta que se marchiten. \nBatir los huevos, agregar sal y pimienta al gusto, verter sobre las espinacas y cocinar hasta que esté firme. \nAgregar el queso encima y doblar el omelette.</string>
     <string name="receta_quinoa">Ingredientes: \nQuinoa \ncalabacín \npimientos \nchampiñones \ncebolla \naceite de oliva \najo \nsal y pimienta.
 \nInstrucciones: \nCocinar la quinoa según las instrucciones. \nEn una sartén, saltear las verduras con ajo en aceite de oliva hasta que estén tiernas. \nMezclar las verduras con la quinoa.</string>
-
-
+    <string name="receta_pupusa">Ingredientes:\n 2 tazas de harina de maíz \n1-1.5 tazas de agua tibia \n1 taza de queso rallado (preferiblemente quesillo) \nOpciones de relleno: chicharrón, frijoles refritos, queso
+\n Instrucciones:\nEn un recipiente, mezcla la harina de maíz con el agua tibia. \nAmasa hasta obtener una masa suave y maleable.
+Forma pequeñas bolas con la masa.\nCon el dedo, haz un agujero en cada bola y rellénalo con el ingrediente de tu elección (chicharrón, frijoles, queso).\nCierra la masa alrededor del relleno y forma una especie de disco plano.\nEn una sartén caliente o plancha, cocina las pupusas por ambos lados hasta que estén doradas y cocidas por dentro.</string>
+    <string name="receta_sopares">Ingredientes:\n500 g de carne de res (preferiblemente con hueso)\n1 yuca cortada en trozos\n2 elotes (maíz) cortados en rodajas\n2 zanahorias en rodajas\n2 papas cortadas en trozos\n1 plátano verde cortado en trozos\n1 chile verde picado\n1 cebolla picada\n2 dientes de ajo picados\nHojas de cilantro\nSal y pimienta al gusto\n
+Instrucciones:\nEn una olla grande, hierve la carne de res con suficiente agua hasta que esté tierna.\nAgrega la yuca, el elote, las zanahorias, las papas y el plátano a la olla.\nEn una sartén aparte, saltea el chile, la cebolla y el ajo hasta que estén dorados y agrégalos a la olla.\nCocina a fuego medio hasta que todas las verduras estén tiernas y los sabores se mezclen.\nAgrega sal, pimienta y cilantro al gusto antes de servir.</string>
+    <string name="receta_enchiladas">ngredientes:\n12 tortillas de maíz\n2 tazas de pollo desmenuzado\n2 tazas de repollo rallado\n1 taza de salsa de tomate\n1 taza de queso rallado\n1 cebolla picada\nAceite vegetal\nCrema agria y aguacate para servir (opcional)\n
+Instrucciones:\nFríe ligeramente las tortillas en aceite caliente y escúrrelas en papel absorbente para eliminar el exceso de grasa.\nEn una sartén aparte, mezcla el pollo con la salsa de tomate y caliéntalo.\nColoca una porción de pollo en cada tortilla y enróllalas.\nCubre las enchiladas con repollo rallado, queso rallado y cebolla picada.\nSirve las enchiladas con crema agria y aguacate si lo deseas.</string>
     <string name="receta_text">INGREDIENTES</string>
 </resources>

@@ -17,28 +17,248 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="335dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/foodfast_button_primary"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        android:fontFamily="@font/cabin_regular"
-        android:padding="10dp"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:text="Avena"
-        android:textAlignment="center"
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
 
-        android:textAllCaps="true"
-        android:textColor="@color/text_white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Salmón al horno"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
 
-    <Button
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Salmón al horno"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Pasta integral"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Ensalada de pollo"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Omelette de espinacas "
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="28dp"
+
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="PUPUSAS"
+
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+
+                    android:paddingEnd="15dp"
+                    android:text="SOPA DE RES"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.552"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button18" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+
+                    android:text="SOPA DE RES"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.55"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="817dp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="52dp"
+                    android:fontFamily="@font/agbalumo_regular_style"
+                    android:text="Recetas"
+                    android:textColor="@color/text_blue"
+                    android:textSize="@dimen/font_size_brand_large"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="28dp"
+
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Avena"
+
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintTop_toBottomOf="@+id/button9"
+                    tools:layout_editor_absoluteX="38dp" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="335dp"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="28dp"
+
+                    android:background="@drawable/foodfast_button_primary"
+                    android:fontFamily="@font/cabin_regular"
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Quinoa con verduras "
+
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_white"
+                    android:textSize="24sp"
+                    app:layout_constraintTop_toBottomOf="@+id/button11"
+                    tools:layout_editor_absoluteX="38dp" />
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottom_navigation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+                    app:itemBackground="@color/foodfast_nav_background"
+                    app:itemIconTint="@color/foodfast_nav_selected"
+                    app:itemTextColor="@color/foodfast_nav_selected"
+                    app:menu="@menu/menu_navigation"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="788dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
         android:id="@+id/button7"
         android:layout_width="335dp"
         android:layout_height="51dp"
@@ -59,7 +279,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
-    <Button
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="335dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/foodfast_button_primary"
+                android:fontFamily="@font/cabin_regular"
+
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text="Salmón al horno"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+
+                android:textColor="@color/text_white"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <Button
         android:id="@+id/button8"
         android:layout_width="335dp"
         android:layout_height="51dp"
@@ -122,29 +363,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="335dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/foodfast_button_primary"
-
-        android:fontFamily="@font/cabin_regular"
-        android:padding="10dp"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:text="Quinoa con verduras "
-        android:textAlignment="center"
-
-        android:textAllCaps="true"
-        android:textColor="@color/text_white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.631"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button11" />
-
-    <TextView
+            <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -159,16 +378,5 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar"
-        app:itemBackground="@color/foodfast_nav_background"
-        app:itemIconTint="@color/foodfast_nav_selected"
-        app:itemTextColor="@color/foodfast_nav_selected"
-        app:menu="@menu/menu_navigation" />
 
 </RelativeLayout>
