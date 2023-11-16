@@ -30,7 +30,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
         Button btnIniciarSesion = findViewById(R.id.button2);
 
         Button btnCrearCuenta = findViewById(R.id.button);
-        Button btnCrear = findViewById(R.id.btn2);
+
 
 
 
@@ -88,13 +88,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
             }
         });
 
-        btnCrear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(IniciarSesionActivity.this, RegistrarseActivity1.class);
-                startActivity(intent);
-            }
-        });
+     
     }
 
     private boolean verificarDatosEnSharedPreferences(String usuario, String contrasena) {
