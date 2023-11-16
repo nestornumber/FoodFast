@@ -1,45 +1,17 @@
 <resources>
     <string name="app_name">FoodFast</string>
-    <string name="receta_salmon">Ingredientes:
-Filete de salmón, zanahorias, brócoli, aceite de oliva, limón, sal y pimienta.
-
-Instrucciones:
-Sazonar el salmón con sal, pimienta y jugo de limón.
-Colocar en una bandeja para hornear junto con zanahorias y brócoli.
-Rociar con aceite de oliva y hornear hasta que el salmón esté cocido y los vegetales estén tiernos.</string>
-    <string name="receta_pasta">Ingredientes:
-Pasta integral, espinacas frescas, piñones, ajo, aceite de oliva, queso parmesano, sal y pimienta.
-
-Instrucciones:
-Cocinar la pasta según las instrucciones.
-Mientras tanto, mezclar espinacas, piñones, ajo, aceite de oliva y queso parmesano en una licuadora para hacer el pesto.
-Mezclar el pesto con la pasta cocida.</string>
-    <string name="receta_avena">Ingredientes:
-Avena, leche (o agua), frutas frescas (como plátanos o fresas), frutos secos (nueces o almendras), miel (opcional)
-
-Instrucciones:
-Cocinar la avena según las instrucciones del paquete.
-Servir con rodajas de frutas frescas, frutos secos y un chorrito de miel si lo deseas.</string>
-    <string name="receta_ensaladapollo">Ingredientes:
-Pechuga de pollo a la parrilla, lechuga mixta, tomate, aguacate, maíz, aderezo de cilantro-lima.
-
-Instrucciones:
-Cortar el pollo en tiras.
-Mezclar con los ingredientes de la ensalada y aderezar con el aderezo de cilantro-lima.</string>
-    <string name="recera_omelette">Ingredientes:
-Huevos, espinacas frescas, queso (puede ser queso feta o de tu elección), sal y pimienta al gusto.
-
-Instrucciones:
-Saltear las espinacas en una sartén hasta que se marchiten.
-Batir los huevos, agregar sal y pimienta al gusto, verter sobre las espinacas y cocinar hasta que esté firme.
-Agregar el queso encima y doblar el omelette.</string>
-    <string name="receta_quinoa">Ingredientes:
-Quinoa, calabacín, pimientos, champiñones, cebolla, aceite de oliva, ajo, sal y pimienta.
-
-Instrucciones:
-Cocinar la quinoa según las instrucciones.
-En una sartén, saltear las verduras con ajo en aceite de oliva hasta que estén tiernas.
-Mezclar las verduras con la quinoa.</string>
-
-
+    <string name="receta_salmon">Ingredientes: \nFilete de salmón \nzanahorias \nbrócoli \naceite de oliva \nlimón \nsal y pimienta.
+\nInstrucciones: \nSazonar el salmón con sal, pimienta y jugo de limón. \nColocar en una bandeja para hornear junto con zanahorias y brócoli. \nRociar con aceite de oliva y hornear hasta que el salmón esté cocido y los vegetales estén tiernos.</string>
+    <string name="receta_pasta">Ingredientes:  \nPasta integral \nespinacas frescas \npiñones \najo \naceite de oliva \nqueso parmesano \nsal y pimienta.
+\nInstrucciones:  \nCocinar la pasta según las instrucciones. \nMientras tanto, mezclar espinacas, piñones, ajo, aceite de oliva y queso parmesano en una licuadora para hacer el pesto. \nMezclar el pesto con la pasta cocida.</string>
+    <string name="receta_avena">Ingredientes:\n Avena leche (o agua) \nfrutas frescas(como plátanos o fresas) \nfrutos secos (nueces o almendras) \nmiel (opcional)\n
+Instrucciones: \nCocinar la avena según las instrucciones del paquete. \nServir con rodajas de frutas frescas, frutos secos y un chorrito de miel si lo deseas.</string>
+    <string name="receta_ensaladapollo">Ingredientes:\n Pechuga de pollo a la parrilla\n lechuga mixta, tomate, aguacate, maíz, aderezo de cilantro-lima.
+\nInstrucciones: \nCortar el pollo en tiras. \nMezclar con los ingredientes de la ensalada y aderezar con el aderezo de cilantro-lima.</string>
+    <string name="recera_omelette">Ingredientes: \nHuevos \nespinacas frescas \nqueso (puede ser queso feta o de tu elección) \nsal y pimienta al gusto.
+\nInstrucciones: \nSaltear las espinacas en una sartén hasta que se marchiten. \nBatir los huevos, agregar sal y pimienta al gusto, verter sobre las espinacas y cocinar hasta que esté firme. \nAgregar el queso encima y doblar el omelette.</string>
+    <string name="receta_quinoa">Ingredientes: \nQuinoa \ncalabacín \npimientos \nchampiñones \ncebolla \naceite de oliva \najo \nsal y pimienta.
+\nInstrucciones: \nCocinar la quinoa según las instrucciones. \nEn una sartén, saltear las verduras con ajo en aceite de oliva hasta que estén tiernas. \nMezclar las verduras con la quinoa.</string>
+    <string name="receta_text">INGREDIENTES</string>
+    
 </resources>

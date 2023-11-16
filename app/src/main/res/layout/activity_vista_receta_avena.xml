@@ -93,17 +93,19 @@
                 app:layout_constraintBottom_toBottomOf="@+id/imageView3"
                 app:layout_constraintStart_toStartOf="@+id/textView4" />
 
+
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textView14"
                 android:layout_width="323dp"
                 android:layout_height="224dp"
-                android:layout_marginTop="33dp"
+                android:layout_marginTop="48dp"
                 android:fontFamily="@font/cabin_bold"
                 android:text="@string/receta_avena"
                 android:textAllCaps="false"
                 android:textColor="@color/text_blue"
                 android:textSize="@dimen/font_size_medium"
-                app:layout_constraintStart_toStartOf="@+id/textView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
             <TextView
