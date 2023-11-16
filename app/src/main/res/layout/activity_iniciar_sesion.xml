@@ -11,12 +11,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/agbalumo_regular_style"
         android:text="FoodFast"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_brand_large"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,13 +25,13 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/cabin_semibold_style"
         android:text="Iniciar Sesión"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_huge"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -44,7 +45,7 @@
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_medium"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
@@ -71,12 +72,13 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="17dp"
         android:fontFamily="@font/cabin_semibold_style"
         android:text="Contraseña"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_medium"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
@@ -84,7 +86,7 @@
         android:id="@+id/editText1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/foodfast_edit_text"
         android:fontFamily="@font/cabin_regular"
         android:padding="10dp"
@@ -105,19 +107,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:background="@drawable/foodfast_button_primary"
-        android:fontFamily="@font/cabin_bold"
 
+        android:fontFamily="@font/cabin_bold"
         android:padding="10dp"
         android:paddingStart="25dp"
         android:paddingEnd="25dp"
         android:text="INICIAR SESIÓN"
         android:textAlignment="center"
-        android:textAllCaps="true"
 
+        android:textAllCaps="true"
         android:textColor="@color/text_white"
         android:textSize="@dimen/font_size_small"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switch1" />
 
@@ -140,58 +142,60 @@
         android:id="@+id/btnInvitado"
         android:layout_width="224dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="140dp"
-        android:background="@drawable/foodfast_button_primary"
+        android:layout_marginTop="11dp"
 
+        android:background="@drawable/foodfast_button_primary"
         android:fontFamily="@font/cabin_bold"
         android:onClick="onInvitadoButtonClick"
         android:padding="10dp"
         android:paddingStart="25dp"
         android:paddingEnd="25dp"
-        android:text="INVITADO"
 
+        android:text="INVITADO"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/text_white"
         android:textIsSelectable="true"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="34dp"
         android:fontFamily="@font/cabin_semibold_style"
         android:text="¿No tienes una cuenta?"
         android:textColor="@color/text_blue"
         android:textSize="@dimen/font_size_medium"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/foodfast_button_secondary"
+        android:layout_marginTop="19dp"
 
+        android:background="@drawable/foodfast_button_secondary"
         android:fontFamily="@font/cabin_regular"
         android:padding="10dp"
         android:paddingStart="25dp"
         android:paddingEnd="25dp"
         android:text="REGISTRARSE"
-        android:textAlignment="center"
 
+        android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/text_white"
         android:textSize="@dimen/font_size_small"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="623dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
