@@ -30,7 +30,7 @@ public class IniciarSesionActivity extends AppCompatActivity {
         EditText editTextUsuario = findViewById(R.id.editText);
         EditText editTextContrasena = findViewById(R.id.editText1);
         Button btnIniciarSesion = findViewById(R.id.button2);
-        Button btnCrearCuenta = findViewById(R.id.button);
+        Button btnCrearCuenta = findViewById(R.id.btnInvitado);
         Switch switchRecuerdame = findViewById(R.id.switch1);
 
 
