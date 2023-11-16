@@ -103,7 +103,7 @@
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="26dp"
         android:background="@drawable/foodfast_button_primary"
         android:fontFamily="@font/cabin_bold"
 
@@ -119,7 +119,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText1" />
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/cabin_regular"
+        android:text="Recuérdame"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/font_size_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <Button
         android:id="@+id/btnInvitado"
@@ -129,12 +144,13 @@
         android:background="@drawable/foodfast_button_primary"
 
         android:fontFamily="@font/cabin_bold"
+        android:onClick="onInvitadoButtonClick"
         android:padding="10dp"
         android:paddingStart="25dp"
         android:paddingEnd="25dp"
         android:text="INVITADO"
-        android:textAlignment="center"
 
+        android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/text_white"
         android:textIsSelectable="true"
@@ -142,8 +158,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="onInvitadoButtonClick"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
