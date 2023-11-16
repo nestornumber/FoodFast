@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class CenasActivity extends AppCompatActivity {
 
-    private Button salmonBtn, quinoaBtn;
+    private Button salmonBtn, quinoaBtn, enchiladaBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,15 @@ public class CenasActivity extends AppCompatActivity {
 
         salmonBtn = findViewById(R.id.button5);
         quinoaBtn = findViewById(R.id.button6);
+        enchiladaBtn = findViewById(R.id.button7);
+
+        enchiladaBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent enchilada = new Intent(CenasActivity.this, VistaRecetaEnchiladasActivity.class);
+                startActivity(enchilada);
+            }
+        });
 
         salmonBtn.setOnClickListener(new View.OnClickListener() {
             @Override

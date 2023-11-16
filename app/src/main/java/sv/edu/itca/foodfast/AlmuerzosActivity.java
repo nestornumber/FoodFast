@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class AlmuerzosActivity extends AppCompatActivity {
 
-    Button ensaladaPolloButton, pastaBtn;
+    Button ensaladaPolloButton, pastaBtn, soparesBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +18,16 @@ public class AlmuerzosActivity extends AppCompatActivity {
 
         pastaBtn = findViewById(R.id.button2);
         ensaladaPolloButton = findViewById(R.id.button3);
+        soparesBtn = findViewById(R.id.button3);
 
+
+        soparesBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sopares = new Intent(AlmuerzosActivity.this, VistaRecetaSoparesActivity.class);
+                startActivity(sopares);
+            }
+        });
         ensaladaPolloButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
