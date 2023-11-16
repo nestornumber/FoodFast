@@ -38,6 +38,21 @@
             android:name=".VistaRecetaEnsaladaActivity"
             android:exported="false" />
         <activity
+            android:name=".VistaRecetaPupusasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaTamalesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaPanespolloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaSoparesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistaRecetaEnchiladasActivity"
+            android:exported="false" />
+        <activity
             android:name=".VistaRecetaAvenaActivity"
             android:exported="false" />
         <activity
