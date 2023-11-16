@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
          pastaButton = findViewById(R.id.button8);
          ensaladaButton = findViewById(R.id.button10);
          omeletteButton = findViewById(R.id.button9);
-         quinoaButton = findViewById(R.id.button12);
-         pupusasBtn = findViewById(R.id.button18);
-         soparesBtn = findViewById(R.id.button19);
+         quinoaButton = findViewById(R.id.button6);
+         pupusasBtn = findViewById(R.id.button7);
+         soparesBtn = findViewById(R.id.button8);
 
         soparesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
